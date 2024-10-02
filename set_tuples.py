@@ -150,9 +150,18 @@ and you may call me V."""
 
 
 # Convert the text to a tuple of characters
+# tuple to store the target characters
+tuple5 = (tuple(list(text)))
 
+#count occurences of 'v' or 'V' by filtering the text_tuple
 
+vc = tuple5.count('v')
+Vc = tuple5.count('V')
 
+Vtc = (vc+Vc)
+
+#Output the result
+print(Vtc)
 
 # Tuple to store the target characters
 
@@ -178,18 +187,25 @@ and you may call me V."""
 
 sample_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # get length of the list
-print(len(sample_list)) # Output: 3
+print(sample_list[0]) # output [1, 2, 3]
+print(sample_list[1]) # output [1, 2, 3]
+print(sample_list[2]) #output [7, 8, 9]
+#extract the 8 out the list
+print(sample_list[2][1])#output: 8
+print(sample_list[1][2])#output: 6
+print(sample_list[0][2])#output: 3
+print(sample_list[2][0])#output: 7
 #this is called a nested list
 # Extract and print the second element from the first list
 
 
 sample_list_of_fruit = {"fruits": ["apple", "banana", "cherry"]}
 # Extract and print the second fruit from the list
-
+print(sample_list_of_fruit["fruits"][1]) #output: 
 
 sample_list_of_lists = {"lists": [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}
 # Extract and print the third element from the second list
-
+print(sample_list_of_lists["lists"][1][2])
 
 
 
